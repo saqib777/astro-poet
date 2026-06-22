@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astro Poet — for the restless seekers</title>
+<meta name="description" content="A collection of poems by Astro Poet — on love, loss, identity, and the restless search for meaning. In English and Hindi/Urdu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Lora:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="starfield"></canvas>
+
+<div class="page">
+  <div id="nav-mount"></div>
+
+  <header class="hero">
+    <p class="eyebrow fade-rise">A collection of poems</p>
+    <h1 class="fade-rise">ASTRO POET</h1>
+    <div class="rule"></div>
+    <p class="tagline fade-rise">for the restless seekers</p>
+    <p class="sub fade-rise">Fifty pieces written across years of self-searching — on love, loss, faith,
+      ambition, and the quiet war between order and chaos. In English, and in Hindi/Urdu.</p>
+    <div class="social-row fade-rise" id="social-mount"></div>
+  </header>
+
+  <div class="section-label">
+    <h2>The poems</h2>
+    <span class="count" id="poem-count"></span>
+  </div>
+
+  <div class="filter-row" id="filter-mount">
+    <button class="filter-btn" data-lang="all" aria-pressed="true">All</button>
+    <button class="filter-btn" data-lang="en" aria-pressed="false">English</button>
+    <button class="filter-btn" data-lang="hi" aria-pressed="false">Hindi / Urdu</button>
+  </div>
+
+  <main class="poem-grid" id="poem-grid"></main>
+
+  <div id="footer-mount"></div>
+</div>
+
+<script src="js/site.js"></script>
+<script src="js/poems-data.js"></script>
+<script src="js/starfield.js"></script>
+<script>
+  document.getElementById('nav-mount').outerHTML = renderNav('index.html');
+  document.getElementById('footer-mount').outerHTML = renderFooter();
+
+  document.getElementById('social-mount').innerHTML = SITE.social
+    .map(s => `<a class="social-pill" href="${s.url}" target="_blank" rel="noopener">${s.label}</a>`)
+    .join('');
+
+  let currentFilter = 'all';
+
+  function renderGrid() {
+    const grid = document.getElementById('poem-grid');
+    const list = POEMS.filter(p => currentFilter === 'all' || p.lang === currentFilter);
+    document.getElementById('poem-count').textContent =
+      `${list.length} of ${POEMS.length}`;
+
+    grid.innerHTML = list.map(p => `
+      <a class="poem-card reveal" href="poem.html?p=${p.slug}">
+        <span class="num">${String(p.id).padStart(2, '0')}</span>
+        <h3>${p.title}</h3>
+        <p class="teaser">${p.firstLine}</p>
+        <div class="meta-row">
+          <span class="lang-tag">${p.lang === 'hi' ? 'Hindi / Urdu' : 'English'}</span>
+          <span>${p.wordCount} words</span>
+        </div>
+      </a>
+    `).join('');
+
+    observeCards();
+  }
+
+  function observeCards() {
+    const cards = document.querySelectorAll('.poem-card.reveal');
+    if (!('IntersectionObserver' in window)) {
+      cards.forEach(c => c.classList.add('is-visible'));
+      return;
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          const card = entry.target;
+          const delay = (Array.from(cards).indexOf(card) % 8) * 45;
+          setTimeout(() => card.classList.add('is-visible'), delay);
+          io.unobserve(card);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    cards.forEach(c => io.observe(c));
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.setAttribute('aria-pressed', 'false'));
+      btn.setAttribute('aria-pressed', 'true');
+      currentFilter = btn.dataset.lang;
+      renderGrid();
+    });
+  });
+
+  renderGrid();
+</script>
+</body>
+</html>

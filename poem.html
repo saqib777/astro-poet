@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Astro Poet</title>
+<meta id="page-desc" name="description" content="">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Lora:ital@0;1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="starfield"></canvas>
+
+<div class="page">
+  <div id="nav-mount"></div>
+
+  <main class="poem-page" id="poem-mount">
+    <!-- filled by script -->
+  </main>
+
+  <div id="footer-mount"></div>
+</div>
+
+<script src="js/site.js"></script>
+<script src="js/poems-data.js"></script>
+<script src="js/starfield.js"></script>
+<script>
+  document.getElementById('nav-mount').outerHTML = renderNav('');
+  document.getElementById('footer-mount').outerHTML = renderFooter();
+
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('p');
+  const idx = POEMS.findIndex(p => p.slug === slug);
+  const mount = document.getElementById('poem-mount');
+
+  if (idx === -1) {
+    mount.innerHTML = `
+      <a class="back-link" href="index.html">&larr; Back to all poems</a>
+      <div class="poem-header">
+        <h1>Poem not found</h1>
+      </div>
+      <p style="font-family: var(--ui); color: var(--ink-faint);">
+        That page doesn't exist. <a href="index.html" style="color: var(--gold);">Return to the index</a>.
+      </p>
+    `;
+  } else {
+    const poem = POEMS[idx];
+    const prev = POEMS[idx - 1];
+    const next = POEMS[idx + 1];
+
+    document.getElementById('page-title').textContent = `${poem.title} — Astro Poet`;
+    document.getElementById('page-desc').setAttribute('content', poem.firstLine);
+
+    const bodyHtml = poem.body
+      .split(/\n\n+/)
+      .map(stanza => `<p>${stanza.replace(/\n/g, '<br>')}</p>`)
+      .join('');
+
+    mount.innerHTML = `
+      <a class="back-link" href="index.html">&larr; Back to all poems</a>
+      <div class="poem-header fade-rise">
+        <div class="poem-num">${String(poem.id).padStart(2, '0')} &middot; ${poem.lang === 'hi' ? 'Hindi / Urdu' : 'English'}</div>
+        <h1>${poem.title}</h1>
+      </div>
+      <div class="poem-body fade-rise" style="animation-delay: 0.2s;">${bodyHtml}</div>
+      <nav class="poem-nav fade-rise" style="animation-delay: 0.35s;">
+        ${prev ? `<a href="poem.html?p=${prev.slug}"><span class="dir">&larr; Previous</span><span class="title">${prev.title}</span></a>` : '<span></span>'}
+        ${next ? `<a class="next" href="poem.html?p=${next.slug}"><span class="dir">Next &rarr;</span><span class="title">${next.title}</span></a>` : '<span></span>'}
+      </nav>
+    `;
+  }
+</script>
+</body>
+</html>

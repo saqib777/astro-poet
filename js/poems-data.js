@@ -1,0 +1,458 @@
+// Auto-generated. Source of truth: poems-data.json
+const POEMS = [
+  {
+    "title": "The Arrow",
+    "lang": "en",
+    "body": "The air was thick,\nI climbed that mountain though I was sick,\nThe fog was dense; it hurt my chest,\nI crossed every hurdle and did my best.\nThere I saw a deer, a two-headed deer,\nIn shock, I stood, as though a seer.\nNo sooner had I looked than an arrow flew,\nSlicing through the thick fog, striking the deer's head too.\nBut it didn't die, only one head did.",
+    "slug": "the-arrow",
+    "id": 1,
+    "wordCount": 71,
+    "firstLine": "The air was thick,"
+  },
+  {
+    "title": "And in middle of my chaos there was you",
+    "lang": "en",
+    "fragment": true,
+    "body": "“And in middle of my chaos there was you”",
+    "slug": "and-in-middle-of-my-chaos-there-was-you",
+    "id": 2,
+    "wordCount": 9,
+    "firstLine": "“And in middle of my chaos there was you”"
+  },
+  {
+    "title": "Love",
+    "lang": "en",
+    "body": "\"Love is not to just love someone but to feel them, to\nunderstand their true nature, to love them as they are.\nBut as humans we expect more; we imagine a false\nimage of the person we love, we make them godly!\"\n\n//we think that they own our lives to such extent that\nwe lose our minds, we lose our self respect//\nLove is much more complex. I have seen people go crazy\nwhen they love and then lose it. Is it a game?\n\nWhere if we get the one we love, we win? If not, we\nlose? No, we lose when we think that our love depends\nsolely on the existence of the loved one in our lives. It is\nnot; it is merely a failure of loving.\nPeople say they love but do not care. Love is a mixture\nof romance, care, understanding, reliability, and trust.\nLove comes with sacrifices, injustice, pain, and\nhumiliation.",
+    "slug": "love",
+    "id": 3,
+    "wordCount": 156,
+    "firstLine": "\"Love is not to just love someone but to feel them, to"
+  },
+  {
+    "title": "Ambition",
+    "lang": "en",
+    "body": "What an ambitious soul I am, I dream a lot yet work\nvery less, as if I never care to deliver the potential to my\nlife to an astonishing level of gratitude.",
+    "slug": "ambition",
+    "id": 4,
+    "wordCount": 32,
+    "firstLine": "What an ambitious soul I am, I dream a lot yet work"
+  },
+  {
+    "title": "Alas, your heartbeat",
+    "lang": "en",
+    "fragment": true,
+    "body": "Alas, your heartbeat looping in mind's every corner for\ninfinity.",
+    "slug": "alas-your-heartbeat",
+    "id": 5,
+    "wordCount": 10,
+    "firstLine": "Alas, your heartbeat looping in mind's every corner for"
+  },
+  {
+    "title": "Timeless",
+    "lang": "en",
+    "body": "We are in a timeless waltz in the astral realm, the\nuniverse is a big ship and you are the helm. Our dance\nradiating against all odds, we inspire, conspire the\ncelestial bodies to dwell with us. We have become\neternal bodies, to swim in galaxies.",
+    "slug": "timeless",
+    "id": 6,
+    "wordCount": 46,
+    "firstLine": "We are in a timeless waltz in the astral realm, the"
+  },
+  {
+    "title": "Hum Thodi Hain!",
+    "lang": "hi",
+    "body": "Hum sab ko pasand aajayein,\nchand thodi hain?\nHum sab ko lubhalein,\njaam thodi hain?\nHum sab ko rula jayein,\npyaaz thodi hain?\nHum sab ko mil-jayein,\nniyaaz thodi hain?\nHum sab ko sukoon dein,\nnamaz thodi hain?\nHum insaan hain, farishte thodi hain!",
+    "slug": "hum-thodi-hain",
+    "id": 7,
+    "wordCount": 44,
+    "firstLine": "Hum sab ko pasand aajayein,"
+  },
+  {
+    "title": "Vicktor",
+    "lang": "en",
+    "body": "I understand now. The message hidden within the\npattern. The reason for our failures in the commune.\nIt's inescapable. Humanity. Our very essence. Our\nemotions... Rage. Compassion. Hate. Two sides of the\nsame coin. Inextricably bound.",
+    "slug": "vicktor",
+    "id": 8,
+    "wordCount": 36,
+    "firstLine": "I understand now. The message hidden within the"
+  },
+  {
+    "title": "Maybe in another universe",
+    "lang": "en",
+    "fragment": true,
+    "body": "Maybe in another universe we are together",
+    "slug": "maybe-in-another-universe",
+    "id": 9,
+    "wordCount": 7,
+    "firstLine": "Maybe in another universe we are together"
+  },
+  {
+    "title": "Aankhein",
+    "lang": "hi",
+    "body": "Aankhen, jo unka deedar kare wo aankhein.\nAankhein, wo jo unhe dekh kar apni haar tasleem karein\nwo aankhein.\nAankhein, jise dekh kar nasha aaye,\nAankhein, jise dekhne par jannat nazar aaye.\nJab dekha uski aankhon ko to khud ko dekha, dekha to\nKhuda ko bhi.\n\nJab dekha uski jheel si aankhein, to laga ke khud ki\nparchayi dekhi.\nAankhon mein dikhta hai uske saara aasman, jab\naasmaan dekha to\nbarish ki boondein barsi.\n\nBoondon mein dekha to har ek boond uski aankhon ki\ngehraayi bayaan kar rahi thi.\nInn barish ki boondon ne milke jheel ki buniyaad kardi,\nus jheel mein maine khud ko paaya.\nJab khud ko dekha to main uss jheel mein ghark ho raha\ntha.\n\nJab tak main khud ko bachata tab tak main uss jheel ki\ngehraiyon mein doob chuka tha.\nPhir jab hosh aaya to jaana ke main to sirf uski aankhon\nko dekh raha tha.\n\nJab dekho tum un aankhon ko to nazrein chura lena,\nwarna tum bhi meri tarah ghark ho jaoge uski jheel si\naankhon mein aur\njab tak tum khud ko bachaoge tum uski mohabbat mein\nbarbaad ho chuke hoge.\n\nNahi, ye uski ghalti nahi hai ke Khuda ne uski aankhen\nitni khoobsurat banayi ke dekhne wale ke hosh hi na\nrahein.",
+    "slug": "aankhein",
+    "id": 10,
+    "wordCount": 212,
+    "firstLine": "Aankhen, jo unka deedar kare wo aankhein."
+  },
+  {
+    "title": "APM 08279+52550",
+    "lang": "en",
+    "body": "A big cloud of mist and droplets,\nIt is place where we can't reach with our rockets,\nMy brain is bursted white & black like my home sockets,\nThe cloud is in the space, lonely, like me sitting in my\ncloset,\nEmpty, you have only gases, like my empty pockets.",
+    "slug": "apm-0827952550",
+    "id": 11,
+    "wordCount": 50,
+    "firstLine": "A big cloud of mist and droplets,"
+  },
+  {
+    "title": "The End",
+    "lang": "en",
+    "body": "So, they both came to an end,\nThe endless loop of entanglement ceased.\nThe effortless journey to the realm of stars was finished;\nNeither did she want him back, nor did he wish to\nreturn.\n\nThey both were ended, ashlessly burned.\nOnce afraid to lose,\nNow they cruise through life with nothing left to\nchoose.",
+    "slug": "the-end",
+    "id": 12,
+    "wordCount": 55,
+    "firstLine": "So, they both came to an end,"
+  },
+  {
+    "title": "Departure",
+    "lang": "hi",
+    "body": "Tera yun chale jana na mujhe bhaye,\nReh lunga main kahin bhi bas apna de de tu saya,\nMar jaun to manogi kya, sang mere sitare hoon main\nlaya,\nInkaar kare sab kuch ye tera kaisa hai khel, kaisi hai\nmaya,\nMaan ja meri jaan, main tuta hua dil hoon laya.",
+    "slug": "departure",
+    "id": 13,
+    "wordCount": 51,
+    "firstLine": "Tera yun chale jana na mujhe bhaye,"
+  },
+  {
+    "title": "Yaad",
+    "lang": "en",
+    "body": "In my heart, I hold your memory dear,\nThough you are no longer here.\nYour love was a light that shone so bright,\nGuiding me through the darkest night.\nI miss you more than words can say,\nBut I know you're with me every day.\nYour spirit lives on in all that I do,\nAnd I feel your love shining through.\nThough we may be apart,\nYou will always hold a special place in my heart.\nYour memory will never fade away,\nAnd I'll cherish it forever and a day.\nMay your soul rest in peace,\nAnd may your love never cease.\nYou will always be remembered,\nAnd your memory will be forever treasured.",
+    "slug": "yaad",
+    "id": 14,
+    "wordCount": 114,
+    "firstLine": "In my heart, I hold your memory dear,"
+  },
+  {
+    "title": "Order and Chaos",
+    "lang": "en",
+    "body": "I shatter my very own self to be with you, just thinking\nthat the arrival of death can make things better, the\ndeath of the chaos in our minds. But does chaos die, or\ndoes it just fade as we gain experience? I believe in faith,\nbut I also believe we mend the timeline by what we\nthink. We are cosmos, not just skin and flesh; we tend to\npossess powers that we are unaware of. Our minds and\ndreams hold so much of human potential.",
+    "slug": "order-and-chaos",
+    "id": 15,
+    "wordCount": 86,
+    "firstLine": "I shatter my very own self to be with you, just thinking"
+  },
+  {
+    "title": "Mera Chaand",
+    "lang": "hi",
+    "body": "Raat jo aayi hai, andhera leke to aayi hai, magar chaand\nnoor bhi saath laaya hai.\nAur hum dono, yun khade hain is chandni mein,\nNange paon, ghaas ko choomte hue, in waadiyon mein,\njahan tum...\nMere saath ho, chahe din ho ya raat.\nTum yun meri aaghosh mein khelo, jaise hawayein mere\nbaalon ko chooti hain,\nWaise hi tum bhi lehrao, jaise khula aanchal ho.\nTum par ye chandni yun jachti hai, jaise ye tumhara\nlibaas ho,\nAur hum dono Raqs-e-Junoon mein yun khushi se\njhoomein,\nKe humari mohabbat ka koi muqaam na rahe,\nYe junoon, ye pagalpan, ye bepanaah mohabbat,\nTumse mujhe har saans mein mehsoos hoti hai.\nJab tum meri aaghosh mein aati ho,\nTo yun meri saanson mein samaane lagti ho.\nTum... haan, tum hi to ho mera chaand, ae baagh-e-\ngulistaan!",
+    "slug": "mera-chaand",
+    "id": 16,
+    "wordCount": 136,
+    "firstLine": "Raat jo aayi hai, andhera leke to aayi hai, magar chaand"
+  },
+  {
+    "title": "Many forms of love",
+    "lang": "en",
+    "body": "He gave himself to love,\npiece by aching piece,\ncrossed endless seas,\nspent all he had,\nonly to see her in another's arms.\nAnd as the silence consumed him whole,\nhe whispered softly,\n\"Love is destruction.\"\n\nAnother spoke of love's dream,\nwhere the heart found its first rhythm,\nand the chaos of the world turned to melody.\nIn her eyes, he saw heaven on earth,\na beauty that carried him far from despair.\nHe fell into its depths,\nnever waking, never wanting to.\n\"Love is a dream,\" he murmured.\n\nShe told the tale of a love unreturned,\nof a man who adored her like no other.\nHe poured all he had into her future,\nsent her away to chase her dreams,\neven as his own heart broke.\nWhen she finally saw the love in his eyes,\nit was too late, death had claimed him.\nWith regret, she cried,\n\"Love is a tragedy.\"\n\nBound by love,\nbut torn by the chains of caste and pride.\nYears passed, families softened,\nbut not in time.\nWhen her family said yes, his said no;\nwhen his heart was ready, hers was restrained.\nCaught in the endless loop of rejection, they sighed,\n“Love is drama.\"",
+    "slug": "many-forms-of-love",
+    "id": 17,
+    "wordCount": 200,
+    "firstLine": "He gave himself to love,"
+  },
+  {
+    "title": "Jalan",
+    "lang": "hi",
+    "body": "Jale tan jale man,\nJale hum har dum,\nHum lage sabse kam.\nTumhe kisi aur ke saamne hasta dekh ke jalun main\niss kadar ke aag bhi kaampe,\nDarta hai jiya tumhari kajal bhari aankhon mein kisi\naur ko dekh ke,\nJalun har dum ye soch ke ke mere se zyaada koi aur\ntumhe dekhe.\nJalun zamaane walon se jo aasaani se tumko dekhein\naur hum yun tarse jhalak paane ko!",
+    "slug": "jalan",
+    "id": 18,
+    "wordCount": 71,
+    "firstLine": "Jale tan jale man,"
+  },
+  {
+    "title": "The fallen man",
+    "lang": "en",
+    "body": "I ran as fast as I could, but it was raining and my\nbreathing was heavy. I struggled for air; my lungs\npumped fast, gasping. My black blazer is drenched. I\nfeel water flowing in my pocket. Now, I stand here\nwatching someone take, making you (which is mine)\ntheirs in the name of marriage. The white flower in my\npocket is dull now. My head is just a living skull now.\nMy life is as hell now.",
+    "slug": "the-fallen-man",
+    "id": 19,
+    "wordCount": 78,
+    "firstLine": "I ran as fast as I could, but it was raining and my"
+  },
+  {
+    "title": "We are our own rot",
+    "lang": "en",
+    "body": "We play our cards, not knowing what's next,\nWe give up on ourselves to rot without giving our best,\nWe burden our souls with all the worldly possessions,\nWhile we devour on the vast internet scum,\nunknowingly this is our obsession.\nWe are soaked in sins and covered with lies,\nWe are drowned in losses, paying our identity as a\nprize.\n\nOur love is hollowed, we love bodies not souls,\nIn debt of lust we lost our goals.\nOur shine has gone as humans, now we are monsters,\nCannibalizing our own kind even when our heart\nshatters.",
+    "slug": "we-are-our-own-rot",
+    "id": 20,
+    "wordCount": 97,
+    "firstLine": "We play our cards, not knowing what's next,"
+  },
+  {
+    "title": "The lost boy",
+    "lang": "en",
+    "body": "If you closely look in my eye\nyou will see a star,\nA bright, shining, but a beautiful scar.\nIt is a reflection of my planet home,\nwhere once I used to freely roam.\nNow I lift my head up and see the sky,\nwhenever I do so it makes me cry.",
+    "slug": "the-lost-boy",
+    "id": 21,
+    "wordCount": 52,
+    "firstLine": "If you closely look in my eye"
+  },
+  {
+    "title": "Heal",
+    "lang": "en",
+    "body": "You are my dream come true,\nmy love, life and my only truth.\nUpon world I chose you,\nwith my God this was the deal,\nand for all my pain you shall heal.\nCome to me, my love,\nin my heart your love is shoved",
+    "slug": "heal",
+    "id": 22,
+    "wordCount": 45,
+    "firstLine": "You are my dream come true,"
+  },
+  {
+    "title": "Imtehaan",
+    "lang": "hi",
+    "body": "Ustaad ne kaha tumhara imtehaan hoga,\nPhir zindagi ne bhi kaha imtehaan hoga,\nKaha mohabbat ne bhi ki imtehaan hoga,\nTarakki karne ke liye bhi imtehaan hoga.\nAakhir mein Khuda ne bhi kaha tumhara imtehaan\nhoga.\n\nMaine pal bhar ke liye bhi na jiye,\nAur jiye to yun ke saara waqt imtehaan bita diya.\nUdaas to hum tab hue jab hum nakaamiyaab thehre,\nHum na rahe kaamiyaab uss ustaad ki aankhon mein,\nZindagi ke lamhaaton mein,\nMohabbat ki raaton mein,\nTarakki ki raahon mein,\nKhuda ki nigahon mein.",
+    "slug": "imtehaan",
+    "id": 23,
+    "wordCount": 88,
+    "firstLine": "Ustaad ne kaha tumhara imtehaan hoga,"
+  },
+  {
+    "title": "Khafa",
+    "lang": "hi",
+    "body": "Usne humko udaas dekh ke kaha, itne khafa kyun ho?\nKhuda ka diya sab kuch to hai tumhare paas, khush\nraha karo.\n\nTo maine kaha, diya sab kuch Khuda ka hi hai,\nGhamzada isiliye hoon ke main khud se kuch hasil na\nkar saka.",
+    "slug": "khafa",
+    "id": 24,
+    "wordCount": 44,
+    "firstLine": "Usne humko udaas dekh ke kaha, itne khafa kyun ho?"
+  },
+  {
+    "title": "Ghairon ke sheesh mahlon",
+    "lang": "hi",
+    "fragment": true,
+    "body": "Ghairon ke sheesh mahlon ko dekh kar\nKhud ka aashiyaan na ujaado.",
+    "slug": "ghairon-ke-sheesh-mahlon",
+    "id": 25,
+    "wordCount": 12,
+    "firstLine": "Ghairon ke sheesh mahlon ko dekh kar"
+  },
+  {
+    "title": "My death is close",
+    "lang": "en",
+    "body": "They say happy birthday!\nI say I have come closer to become the compost of my\ndandelions.",
+    "slug": "my-death-is-close",
+    "id": 26,
+    "wordCount": 17,
+    "firstLine": "They say happy birthday!"
+  },
+  {
+    "title": "I don't want to be seasons of your life",
+    "lang": "en",
+    "fragment": true,
+    "body": "I don't want to be seasons of your life,\nI want to be sky, so I stay forever even when you die,\n\nI want to be reason for your smile,\nI want you to be inspired by me,\nI want you to love me like you're a madman.",
+    "slug": "i-dont-want-to-be-seasons-of-your-life",
+    "id": 27,
+    "wordCount": 48,
+    "firstLine": "I don't want to be seasons of your life,"
+  },
+  {
+    "title": "I am grown",
+    "lang": "en",
+    "body": "I stretched my legs and\nthey slipped out from under the blanket.\nAnd that's when I knew:\nI am grown now.\nLife once meant living.\nNow, it means surviving.\nI used to adore it.\nNow I search for ways to endure it.\nThe burden that once shaped me\nhas hollowed me out.\nAnd I know\nwhen the burden ends,\nso will I.\n\nI've learned\nit's easy to please people once,\nbut nearly impossible\nto please them always.\nAlways means forever.\nAnd nothing lasts forever.\nNot me. Not them.\nSo I let my childishness spill out,\nI do stupid things.\nBecause I am grown,\nand I refuse to grow cold.",
+    "slug": "i-am-grown",
+    "id": 28,
+    "wordCount": 109,
+    "firstLine": "I stretched my legs and"
+  },
+  {
+    "title": "Sanson ki mala",
+    "lang": "hi",
+    "body": "Sanson ki mala pe simroon main pi ka naam,\nPar meri har saans paak to nahi,\nAur ye hawa saaf bhi nahi.\nTo tera paak naam har saans pe lena mujhe raas nahi.\nTo chalun door iss shehar se door,\nJahan hawayein paak ho.\nTo lun main sanyaas aur apne pi ka naam saanson pe\nsimroon,\nAur yahi bolun ke\nSanson ki mala pe simroon main pi ka naam.",
+    "slug": "sanson-ki-mala",
+    "id": 29,
+    "wordCount": 69,
+    "firstLine": "Sanson ki mala pe simroon main pi ka naam,"
+  },
+  {
+    "title": "Expectations",
+    "lang": "en",
+    "body": "Expectations... an unfulfilled dream.\nI say,\n\"Oh, I need no expectation to keep from thee,\"\nbut she says,\n\"You, my love, can.\"\nDoth she know that her presence is what I expect,\nbut yet she demands it.\nShe, a queen, shalt have anything from me,\nso I said,\n\n\"O my lady, you shalt have my expectations.\"\nBut he, who deeply in love,\nforgot, expectations are deadly; they break you inside\nout,\nthat they are thin as thread,\nfragile as glass,\ndense as cloud,\nbut love meant to him the most.\n\nShe asked, he kept expecting.\nTyranny struck him when she never kept his\nexpectations.\nShe who, a queen, a known beauty, an angel from the\nskies,\ncould not keep her words.\nHe felt broken, shattered;\nhis own trust hath been broken.\nThus he keeps no expectation from the world;\nshe is and will be the world for him.",
+    "slug": "expectations",
+    "id": 30,
+    "wordCount": 148,
+    "firstLine": "Expectations... an unfulfilled dream."
+  },
+  {
+    "title": "passionate",
+    "lang": "en",
+    "body": "The word passionate,\nI do not want to use it in only my resume or LinkedIn.\nPassionate should be my life,\nPassionate should be me,\nPassionate should be my breath,\nPassionate should be the word whispered under the\nbreath by others when they see me.\nPassionate should be my soul,\nSo should be my heart,\nSo is my mind.\nPassionate should be the word used to describe me.\nPassionate should be my home,\nSo should be my clothes,\nSo is my shoes,\nPassionate should be the word which means me.",
+    "slug": "passionate",
+    "id": 31,
+    "wordCount": 90,
+    "firstLine": "The word passionate,"
+  },
+  {
+    "title": "The darkest star",
+    "lang": "en",
+    "body": "Darkness is not my ally, it is what lives within me.\nI do not seek light; instead, I embrace the weight of\nshadow.\nFor only under the burden of darkness can I transform\ninto what we call a star,\na bright, shining star.\nA glow so radiant it guides those who follow.\nAnd so, I crave more darkness,\nfor the deeper it runs,\nthe brighter I become.",
+    "slug": "the-darkest-star",
+    "id": 32,
+    "wordCount": 67,
+    "firstLine": "Darkness is not my ally, it is what lives within me."
+  },
+  {
+    "title": "Talk to my demons",
+    "lang": "en",
+    "body": "What an utterless mouth I have.\nI wish someone could hear the words I don't whisper,\nthe sentences I swallow,\nthe screams my heart makes.\nI wish someone could look deeper within me,\nbeyond the happy face I carry.\nWhy must I always seem cheerful,\njust to stop people from asking what's wrong?\nThe things my mind thinks are nothing but destruction\nand chaos,\nyet to balance it,\nmy heart stays soft,\nreckoning,\nfragile.\nI wonder,\nare the punishments we face merely the experiences we\nare forced to carry through life?\nOr are they only regrets,\npulling us into the darkness of guilt?\n\nI wish people were more open, more trustable.\nBut now all I see is betrayal...\nOr maybe I have only met those unworthy of trust.\nSometimes, I wish I were friends with demons,\nfor they are made of hardships, of chaos,\nof struggles no one else could bear.\nPerhaps they would be the ones to understand me.",
+    "slug": "talk-to-my-demons",
+    "id": 33,
+    "wordCount": 160,
+    "firstLine": "What an utterless mouth I have."
+  },
+  {
+    "title": "Ashamed",
+    "lang": "en",
+    "body": "What a shameful soul I am,\ndrowning in the weight of my own guilt.\nNever in my life did I imagine\nthat I would end like this,\nin a pit of filth,\n\nwhich is nothing less than what it seems.\nYou know what I mean, don't you?\nI am ashamed of myself\nfor falling into the trap of the world,\nall the while knowing the road I walked.\nI never wanted to end up here,\nlike this.\n\nI wanted to be free,\nto roam, to live,\nto enjoy the fruits of my labor.\nBut look at me now,\npoor, broken.\n\nI have become the dust that settles,\nthe raindrop that falls,\nthe star that shatters,\nthe land that cracks,\nthe sky that bursts,\nthe volcano that erupts,\nthe ocean that dries.\nI am shameful.",
+    "slug": "ashamed",
+    "id": 34,
+    "wordCount": 134,
+    "firstLine": "What a shameful soul I am,"
+  },
+  {
+    "title": "Let me be rain",
+    "lang": "en",
+    "body": "I wish I were the rain that falls on you,\nso I could touch your skin with every drop.\nI wish I were the ground beneath your steps,\nso your feet would never feel pain.\nI wish I were the air you breathe,\nnot filled with smoke or pollution,\nbut only myself,\nso every breath you take is me within you.\nI wish I were the sunlight,\nso when you glow,\nit is my rays that make you shine.",
+    "slug": "let-me-be-rain",
+    "id": 35,
+    "wordCount": 79,
+    "firstLine": "I wish I were the rain that falls on you,"
+  },
+  {
+    "title": "Sky is my canvas",
+    "lang": "en",
+    "body": "The clouds became my ink, and the sky my canvas,\nwhere I write letters to you,\nletters that whisper how beautiful you are.\nTruly, I have never seen such beauty\npainted across the heavens.\nOn my canvas of sky,\nYou are the moon and the stars,\nappearing always, everywhere.\n\nAnd when the clouds turn dark,\nI write to you in the rain,\nso every drop carries your name,\ntelling the land, the trees, the forests,\nand every corner of the earth\nabout you,\nand the love I hold for you.",
+    "slug": "sky-is-my-canvas",
+    "id": 36,
+    "wordCount": 90,
+    "firstLine": "The clouds became my ink, and the sky my canvas,"
+  },
+  {
+    "title": "The Tormented",
+    "lang": "en",
+    "body": "For children whose skin was ripped and heads were\nbutchered,\nThey screamed, with blood tears.\nAll their hearts were filled with fear.\nThey were the pretty faces who had a luxurious life,\nNow all that's left is agony and thoughts of knives.\nTheir parents were beheaded in front of them,\nWhile they screamed and cried,\nPoor little gems.\n\nThey called the world to help,\nBut no one answered their screams.\nThey were bestowed with bullets and missiles, rockets\nand bombs,\nWith no mercy on humans, animals, or tombs.\nThe never-ceasing screams were loud,\nNot as humans should we be proud.\nDeath is of children, and we paid enemies,\nNow all they have are nightmares and memories.\n\nI am tired, sick and lethargic,\nWhy this world surrounding me is so toxic?\nWhy it has to be this way?\nWhy can't I just be a happy soul?\n\nWHY CAN'T I BE LOVED THE WAY I WANT?\nDoes not one want me?",
+    "slug": "the-tormented",
+    "id": 37,
+    "wordCount": 159,
+    "firstLine": "For children whose skin was ripped and heads were"
+  },
+  {
+    "title": "Scars",
+    "lang": "en",
+    "body": "The tattoos you made on your body,\ncarved by a sharp blade,\nThose deep scars lie dry, yet never heal.\nI wish my lips could kiss them whole,\ndraw out the pain,\nand breathe you back into light.\nBut you are so far away,\nand my hands reach only shadows.",
+    "slug": "scars",
+    "id": 38,
+    "wordCount": 50,
+    "firstLine": "The tattoos you made on your body,"
+  },
+  {
+    "title": "Khwaab",
+    "lang": "hi",
+    "body": "Hazaron khwaab tut gaye\nSirf ek khwaab ko paane ke liye,\nHazaron din bikhar gaye\nSirf ek raat ko simatne ke liye.\nPar na khwaab poore hue,\nAur na raat mein ki hui woh guzarish.\nTum bhi tanha reh gaye,\nAur hum bhi adhure.\nJeena to kab ka bhool gaye,\nAb bas maut aati hai har raat.\nNa jaane kyun maut aasaan lagti hai,\nAur zindagi barbaad.",
+    "slug": "khwaab",
+    "id": 39,
+    "wordCount": 67,
+    "firstLine": "Hazaron khwaab tut gaye"
+  },
+  {
+    "title": "Dil-e-khabristaan",
+    "lang": "hi",
+    "body": "Haan... jaane do bhaad mein pyaar ko.\nNa ishq ke zulfon ki chhaon chahiye,\nNa mohabbat ki raahon mein apna safar,\nNa manzil hai meri woh,\nNa main uska hashar.\nNa sukoon ki galiyon mein tere saath tehelna hai,\nNa teri aaghosh mein meri maut.\n\nDafan ho gaye hain saare zakhm jo tune diye,\nAbhi fasaana baaki hai.\nIss banjaare-e-dil-o-jaan mein\nNa hasratein baaki hain,\nNa jeene ki wajah,\nNa talab lagti hai,\nNa khush hone ki arzoo.\n\nKeh diya jo usne apne labon se,\nho gayi meri mohabbat ki maut,\nMasla to ye bhi hai ke na suna usne tawajjo se fasana\nmera,\nMasla to ye bhi hai ke usne mujhpe bhi tawajjo na di,\nAur masla to ye bhi hai ki marti hui meri mohabbat ki\naakhri saanson mein uska jaana dekha,\naur ab kaisi arzoo?\n\nZillat-e-mukaam pe iss had tak aa chuke hain ke mera\nhona na hona usko nahi lubhata,\nNa use mujhse dilkashi hai, nahi dil-e-arzoo,\nAbhi to bas banjar-e-khabaristan hai ye dil ki.\nIss dil ka hona na hona usko nahi lubhata,\nSeene se nikal ke ruh doob chuki hai zillat se bhare\ndariya mein,\n\nPar uska aana na aana, mere bas mein nahi.\nAbhi to na ranj baaki hai, na gham, na sukoon\nmaujood hai,\naur na tum",
+    "slug": "dil-e-khabristaan",
+    "id": 40,
+    "wordCount": 215,
+    "firstLine": "Haan... jaane do bhaad mein pyaar ko."
+  },
+  {
+    "title": "Khairiyat na pucho",
+    "lang": "hi",
+    "body": "Khairiyat kya puchte ho,\nJism-o-badan tandurust hain,\nPar kab tak iski koi zamaanat nahi.\nRooh to ghark hue zamaana beeta,\nAb woh ghane andheron mein gumshuda hai.\nAur dimaag ko kaamyaabi se matlab hai bas,\nAur dil?\nUska mat pucho,\nKe ab uska sirf ek hi kaam hai,\nDhadakna,\nAur uss dhadkan mein bhi koi awaaz nahi.",
+    "slug": "khairiyat-na-pucho",
+    "id": 41,
+    "wordCount": 57,
+    "firstLine": "Khairiyat kya puchte ho,"
+  },
+  {
+    "title": "El Matador",
+    "lang": "en",
+    "body": "A man riding the bull,\ngripping tight,\nnot letting go,\nnot until the bull throws him away.\nI want to hold you like that,\nlike the matador holds the ride.\nClingy, yes.\n\nHolding on with everything I have.\nI am afraid of losing you,\nbecause my life is what's at stake in this ride.\nMy heart is a gamble,\nand I have placed all of it on you.\n\nI wish to hold you so tightly\nthat when you finally throw me away,\neither I fall far,\nor I fall broken.\n\nIn some strange way,\nthis pain still feels like love.\nAnd this distance,\nmaybe this is what we need\nto finally face each other.\nI am the matador.\nAnd you are the bull.",
+    "slug": "el-matador",
+    "id": 42,
+    "wordCount": 123,
+    "firstLine": "A man riding the bull,"
+  },
+  {
+    "title": "Calm Storm",
+    "lang": "en",
+    "body": "I am the calm storm.\nI live in chaos,\nyet I crave my peace.\nMy mind runs wild,\nwhile my heart begs for ease.\nI break my surroundings,\nI am the destroyer in my own way.\nYet if you stay beside me,\nI will keep you safe from the wreck I make.\n\nI burn.\nI fall.\nI rise again.\nA war and a shelter in the same breath.\nLoud in my thoughts,\nsilent in my fears,\nlearning to survive my own depth.\n\nStand with me in this violent quiet,\nin this battle I call home.\nI may be the storm that tears the sky,\nbut for you, I will be the calm.",
+    "slug": "calm-storm",
+    "id": 43,
+    "wordCount": 112,
+    "firstLine": "I am the calm storm."
+  },
+  {
+    "title": "Caged",
+    "lang": "en",
+    "body": "I am a lover of stones,\nshe gathers clouds in open palms.\nI drink from restless streams,\nshe waits and smiles with the rain.\nI condemn the darkness,\nshe learns how to glow inside it.\n\nI hide within the shadows,\nshe pulls me gently into daylight.\nShe is a dream, and I don't sleep,\nyet somehow she visits me anyway.\nShe flies like a free bird,\nwhile I remain caged in my own thoughts.\n\nShe is a sweet, unguarded melody,\nand I am the roar of an unsettled storm.\nShe softens the edges of my silence.\nI teach her the weight of depth.\n\nWhere I am heavy, she is light,\nwhere I am lost, she knows the way.\nAnd somewhere between her sky and my ground,\nwe almost learn how to meet.",
+    "slug": "caged",
+    "id": 44,
+    "wordCount": 132,
+    "firstLine": "I am a lover of stones,"
+  },
+  {
+    "title": "All we could be",
+    "lang": "en",
+    "body": "You are yellow, like sunshine,\nand I turn toward the sun because of you.\nBut when night falls,\nI turn to you instead,\nlike a sunflower that finally rests.\n\nWe stand together, watching the sun glow,\nuntil night scatters it away\nand darkness quietly takes over.\nThen it is only us.\nYou and me,\nno sky between our gazes,\nwatching each other instead of the light.\n\nMoonlight falls on us like a blessing.\nwhen the divine stands close,\nwe cherish each moment\nas if we are inseparable.\nEven when we are fading,\neven when we are slowly dying,\nwe still choose to keep looking at each other.\n\nIsn't the lotus beautiful?\nBut would it still be a lotus\nif it never grew from the dirt?\nYou are like a lotus,\nsoft pink, impossibly beautiful,\nrising untouched by what surrounds you.\nAnd I am the dirt,\nunloved, unseen,\nsomething people avoid looking at.\n\nBut when you are with me,\njust like a lotus in mud,\nI become bearable.\nI become lovable.\nWe are inseparable,\nlike mud and lotus.\nNo one can pull us apart,\nbecause without each other,\nwe are incomplete.\n\nCan softness rely on harshness?\nCan hurt exist alongside healing?\nCan sweetness survive bitterness?\nYes.\nWhen I saw a rose, this is what came to my mind:\nA rose rises from the ground\nand grows thorns around itself.\nWithout them, it would not be whole,\nonly too vulnerable,\ntoo fragile for the world.\n\nThe thorns are not born to harm,\nthey are born to protect.\nLikewise, I am harsh at times,\nnot to wound,\nbut to guard my rose.\nI may hurt,\nonly to save my love,\nnever to harm another.\nAnd this is how my rose and I remain,\nfor each other,\nby each other.",
+    "slug": "all-we-could-be",
+    "id": 45,
+    "wordCount": 296,
+    "firstLine": "You are yellow, like sunshine,"
+  },
+  {
+    "title": "The unforgotten lines",
+    "lang": "en",
+    "body": "We aligned in books of fiction,\nfound shelter in poems of love,\nwhere lines collide\nand commas do not mind.\nIn haste, yet with intention, I write\nlines for you,\nwith a quiet kind of delight.\n\nNo, I do not speak of you all the time,\nyet every word that leaves my mouth\nis a metaphor\ncarefully hiding your name.\nYou live between the lines of poems,\nburied in the deepest meanings,\nin the longest paragraphs.\n\nYou are the space between two paragraphs,\nthe breath I take while speaking.\nYou are what allows my sentences to exist,\nwhat gives them meaning.\nYou are the quiet secret of the poem,\nnever spoken aloud,\nnever expelled.\n\nI summon you in every word,\ngather you in every syllable.\nI search for you in every poem I read,\nin every line my eyes touch.\nI place a full stop to end the poem,\nbut you return\nas the next paragraph.",
+    "slug": "the-unforgotten-lines",
+    "id": 46,
+    "wordCount": 156,
+    "firstLine": "We aligned in books of fiction,"
+  },
+  {
+    "title": "Dune of my own voices",
+    "lang": "en",
+    "body": "I am stranded in a desert,\nnot of sand, but of sound,\nvoices of my own echoing,\ncircling me, unbound.\nThey whisper, they guide me\nthrough a realm stripped of light,\nyet the heat of these thoughts\nmakes survival a fight.\n\nThe sandstorm surrounds me\nfrom every known side,\neach grain is a voice\nthat has nowhere to hide.\n\nThey crawl through my mind,\npress my chest, steal my breath,\nas if hands made of echoes\nare rehearsing my death.\nAnd the storm softly tells me,\nwith a terrible grace,\n\"There's nothing more beautiful\nthan death's quiet face.\"\nUncertain in timing,\nbut promised, precise,\na guarantee written\nin silence, not ice.",
+    "slug": "dune-of-my-own-voices",
+    "id": 47,
+    "wordCount": 111,
+    "firstLine": "I am stranded in a desert,"
+  },
+  {
+    "title": "Evenings in Mysore",
+    "lang": "en",
+    "body": "Evenings in Mysore know my secret.\n\nThey know that I choked on my tears.\nFear of failure has its cost in my life,\ntension so high, like a throat on a knife.\nI have half-written letters and\nunspoken words.\n\nMy words once flew like uncaged birds.\nEvenings in Mysore know my secret.\n\nThey know I run away from everyone and\nsit alone.\nThey know I have poured my tears and fed\nthe trees.\nThey know I complained to them how people tease,\nhow small talks hurt and never truly please.\nEvenings are not so long, just long enough to finish\nmy coffee,\nbut I spend them wisely, and that is my trophy.\n\nEvenings in Mysore know my secret.\nThey know I have lost love, lost interest too.\nThey know that the slow breeze has become my lover,\ntrue.\n\nThey know I love my coffee when the sun is low.\nThey know I like sunsets, but it's hard alone\nto watch them go.\nThey know I might have lost myself if not for the sunset\nthat gives me hope to live,\nthat after every fall into darkness,\nthe dawn is always there to give.\n\nEvenings in Mysore know my secret.\nI am in a garden of worries,\nwhere I smell lies and hear gossips and hurries.\nBackstabs I feel, and fake friendships I see,\nall of it growing silently around me.\nEvenings in Mysore know my secret.",
+    "slug": "evenings-in-mysore",
+    "id": 48,
+    "wordCount": 236,
+    "firstLine": "Evenings in Mysore know my secret."
+  },
+  {
+    "title": "Maine tere pyaar me",
+    "lang": "hi",
+    "body": "Maine tere pyaar me dil haar ke kya paya,\nkya gavaya?\n\nKe maine paya tujhko, jo duniya me kisi ne na paya.\nKe tujhe paake maine khud ko paya,\nyun jo tu meri zindagi me aaya.\nMeri bikhri hui arzooon ko mila tera saya,\nmaine jo pyaar khud se tha, dheere dheere gavaya.\nBhagaya maine tujhe apni zindagi se,\npar mere nain sab padh lete the dil ki bandagi se.\nSamajh lete the haqeeqat me kya chahta hoon,\nke tujhe paake bhi tujhe dukh nahi dena chahta hoon.\n\nKe mere hisse me khushi kam, dukh ke baadal zyaade\nhain,\nMere ankhon se jo ashk bahe, wahi mere iraade hain.\nMere haathon ko kaampta dekh samajh leti tu,\nke main chahta hoon tujhse door rehna,\npar majboor hoon main hi kyun hoon yun.\nKya ye zaroori hai, aur agar ye zaroorat hai,\nto kyun zindagi ko chahiye aisi hi aadat hai?\n\nKyun iss zindagi me tera na hona sukha sa ehsaas lata\nhai,\nKe tere chale jaane se har lamha bejaan ho jaata hai.\nKe baat tere hone ya na hone ki nahi thi kabhi,\nbaat thi tere dil se mujhe chahne ki sabhi.\nBaat to ye bhi hai jis tarah tune pyaar ko dil se hataya,\nWo jo pyaar me pagal thi, usne khud ko kaise\nsamjhaya.\nJo har baat me mera naam liya karti thi,\naaj baat karna bhi zaroori nahi samajhti thi.\n\nPar sach ye hai ke pyaar kahin jaata nahi, bas chup ho\njaata hai,\nDil ke kisi kone me dheere se so jaata hai.\nNa tu bhooli hai, na main bhool paya,\nBas waqt ne dono ko khamosh banaya.\nMaine tere pyaar me dil haar ke ye hi paya,\nKe tujhe paakar bhi, maine tujhe hi gavaya.",
+    "slug": "maine-tere-pyaar-me",
+    "id": 49,
+    "wordCount": 291,
+    "firstLine": "Maine tere pyaar me dil haar ke kya paya,"
+  },
+  {
+    "title": "A Lost Man",
+    "lang": "en",
+    "body": "A man who loses is never truly known,\na man who has lost stands silent, alone.\nA darkened window, no light, no view,\na fading frame of what once was true.\n\nMaybe he could win, maybe try once more,\nmaybe strength still waits behind that door.\nBut when his allies leave and walk away,\nhe breaks within, piece by piece, each day.\n\nWhen he is told he is not worthy to stand,\nwhen the cause he held slips out of his hand,\nwhen what he believed dissolves into air,\nis he not the same man standing there?\nDoes one loss rewrite who he became?\nOr does it just whisper a different name?\nDo wins and failures define what is true,\nor just how the world chooses to view?\n\nI believe success and failure are ends we assign,\nmere outcomes drawn by a shifting line.\nIt is always the journey that carries the flame,\nmore alive than the end, untouched by fame.\nIn trial and error, in paths we create,\nin shaping our steps instead of our fate.\nLike writing poetry, quiet, unseen,\nwhere meaning lives in the space between.\n\nI write because I love to write,\nnot for applause, not for sight.\nNot for an audience, not for gain,\nbut for the rhythm inside my brain.\nThe search for a word, the weight of a line,\nthe moment a thought begins to align.\nSo a man is successful when ideas take hold,\nwhen passion burns steady, quiet but bold.\nBut greater success is simple and pure,\nwhen those he loves believe, and endure,\nand stand beside him, steady and sure.",
+    "slug": "a-lost-man",
+    "id": 50,
+    "wordCount": 270,
+    "firstLine": "A man who loses is never truly known,"
+  }
+];
