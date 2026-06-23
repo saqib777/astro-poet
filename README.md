@@ -1,4 +1,4 @@
-# Astro Poet — for the restless seekers
+# Astro Poet - for the restless seekers
 
 A poetry website built from the *My_All_Poems* collection — 50 pieces
 in English and Hindi/Urdu, presented as a brand hub linking out to
